@@ -37,3 +37,6 @@ jspm_packages
 
 # Node Modules
 node_modules
+
+# Build js-file
+dist/index_bundle.js
