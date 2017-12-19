@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Pie } from 'react-chartjs';
+import './style.css';
 
 export default class PieChart extends Component {
   constructor(props) {
@@ -58,7 +59,7 @@ export default class PieChart extends Component {
   render() {
     this.generateData();
     return (
-      <div>
+      <div className="flex-center">
         <Pie data={this.data} options={this.options} />
       </div>
     );

@@ -1,0 +1,18 @@
+.flex-center {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  position: relative;
+}
+
+@media screen and (max-width: 991px) {
+  .flex-center {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.flex-center Pie {
+  width: 600px;
+  height: 300px;
+}
